@@ -1,2 +1,2 @@
 # soil_grids
-generates rasters of field capacity and wilting from the SoilGrids dataset
+generates rasters of field capacity and wilting point from the SoilGrids dataset
