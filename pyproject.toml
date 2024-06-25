@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=60", "setuptools-scm>=8.0", "wheel"]
+
+[project]
+name = "soil_grids"
+version = "1.0.0"
+description = "generates rasters of field capacity and wilting point from the SoilGrids dataset"
+readme = "README.md"
+authors = [
+    { name = "Gregory H. Halverson", email = "gregory.h.halverson@jpl.nasa.gov" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "rasters"
+]
+
+requires-python = ">=3.10"
+
+[tool.setuptools.package-data]
+soil_grids = ["*.txt"]
