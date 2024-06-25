@@ -1,4 +1,4 @@
-# Soil Grids
+# `soil_grids` Python Package
 
 The `soil_grids` Python package generates rasters of field capacity and wilting point from the [SoilGrids](https://soilgrids.org/) dataset.
 
