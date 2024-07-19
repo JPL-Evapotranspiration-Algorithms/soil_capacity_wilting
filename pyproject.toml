@@ -2,8 +2,8 @@
 requires = ["setuptools>=60", "setuptools-scm>=8.0", "wheel"]
 
 [project]
-name = "soil_grids"
-version = "1.0.0"
+name = "soil_capacity_wilting"
+version = "1.0.1"
 description = "generates rasters of field capacity and wilting point from the SoilGrids dataset"
 readme = "README.md"
 authors = [
@@ -21,4 +21,7 @@ dependencies = [
 requires-python = ">=3.10"
 
 [tool.setuptools.package-data]
-soil_grids = ["*.txt"]
+soil_capacity_wilting = ["*.txt"]
+
+[project.urls]
+"Homepage" = "https://github.com/JPL-Evapotranspiration-Algorithms/soil_capacity_wilting"
