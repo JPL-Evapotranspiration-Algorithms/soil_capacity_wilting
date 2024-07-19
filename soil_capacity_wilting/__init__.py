@@ -1,4 +1,4 @@
-from .soil_grids import *
+from .soil_capacity_wilting import *
 
 from os.path import join, abspath, dirname
 
